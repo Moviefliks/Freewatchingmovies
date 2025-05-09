@@ -66,16 +66,14 @@
         </div>
       </div>
 
-      <div class="server-selector">
-        <label for="server">Change Server:</label>
-        <select id="server" onchange="changeServer()">
-          <option value="vidsrc.cc">Vidsrc.cc</option>
-          <option value="vidsrc.me">Vidsrc.me</option>
-          <option value="player.videasy.net">Player.Videasy.net</option>
-        </select>
+      <!-- Ad-Free Custom Player -->
+      <div class="custom-player">
+        <video id="custom-video" controls poster="thumbnail.jpg">
+          <source src="videos/sample.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
 
-      <iframe id="modal-video" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 
